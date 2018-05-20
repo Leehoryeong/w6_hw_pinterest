@@ -1,24 +1,14 @@
-
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
-
-
-Welcome to your Rails project on Cloud9 IDE!
-
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://HOSTNAME/).
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+<h2>메킨지 핀터레스트 구현</h2>
+<h3>전체적인 과정</h3>
+<p>
+핀터레스트 따라만들기 핀기능까지는 구현하지 않고 좋아요 기능까지 구현! 매킨지의 강의에 따라서 차례대로 진행해나갔다.
+우선적으로 뼈대가 되는 model을 작성해주고 그에 맞는 컨트롤러를 생성해준다. 그 컨트롤러에 CRUD에 따라 액션과 뷰파일을 지정해주고 각각의 파일에 알맞은 화면과 기능을 구현해준다. 누구나 글을 작성할 수 있도록한뒤
+이미지파일을 paperclip젬을 통해 업로드 가능하도록 만들어주고 부트스트랩 젬을 통해 스타일링을 진행해준다. 그리고 디바이스 젬을 통한 로그인 가능 여부를 만들어주고 사인업, 사인인 기능을 스타일링 해준다. 
+마지막으로 vote기능을 넣어 좋아요의 숫자를 누적하고 보여줄수 있도록 만들어준다!
+</p>
+<h3>새로 안 내용</h3>
+<p>메킨지 3번을 하면서 계속해서 새로운게 쌓여간다. 이제 디바이스를 비교적 수월하게 따라할 수 잇게 되었다.. 상세하게 이해를 완료한건 아니지만 어느정도 감은 잡았다. 메킨지 1번 한번들으면 아마도 괜찮아지지 않을까라는 혼자만의 자만을 해본다..
+그리고 항상 궁금했던 좋아요기능, 팀프로젝트에서 사용하고 싶은 기능이었는데 나보고 구현하라고 하면 물론 못하겠지만 그래도 하는 방법을 한번 본것과 안본것은 큰차이일테니 직접 만들어야 할때 도움이 될꺼라고 생각한다.
+아직까지 strong parameter에 대한 정확한 개념이 없는 것 같아서 빨리 물어보거나 스스로 알아봐야할것 같다. </p>
+<h3>오류 내용</h3>
+<p>이번에는 따라하면서 특별히 오류사항은 없었습니다.</p>
